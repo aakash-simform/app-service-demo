@@ -59,7 +59,7 @@ jobs:
         run: unzip release.zip
       
       - name: Set up Azure CLI
-        uses: azure/setup-azure-cli@v2  # Updated to use the latest version
+        uses: pietrobolcato/install-azure-cli-action@v1.0.1  # Updated to use the latest version
 
       - name: Login to Azure using Service Principal
         run: |
